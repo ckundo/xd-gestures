@@ -1,0 +1,16 @@
+{
+  "name": "Wave Wake",
+  "description": "Control your XD prototype with gestures.",
+  "version": "1.0.0",
+  "author": "Cameron Cundiff",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "js": ["vendor/tfjs.js", "vendor/posenet.js"],
+      "matches": ["https://xd.adobe.com/*"]
+    }
+  ],
+  "manifest_version": 2
+}
