@@ -8,7 +8,7 @@
   ],
   "content_scripts": [
     {
-      "js": ["vendor/tfjs.js", "vendor/posenet.js"],
+      "js": ["vendor/tfjs.js", "vendor/posenet.js", "index.js"],
       "matches": ["https://xd.adobe.com/*"]
     }
   ],
